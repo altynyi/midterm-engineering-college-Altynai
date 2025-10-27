@@ -1,0 +1,33 @@
+body {
+  scroll-behavior: smooth;
+  padding-top: 70px;
+}
+
+.hero {
+  background: url(assets/images/lightac.png) center/cover no-repeat;
+  height: 90vh;
+}
+
+h1, h2, h3, h4, h5 {
+  color: #0d3b66;
+}
+
+.btn-primary {
+  background-color: #0d6efd;
+  border-color: #0d6efd;
+}
+
+
+footer {
+  font-size: 0.9rem;
+}
+
+.card img {
+  object-fit: cover;
+  height: 200px;
+}
+
+:focus {
+  outline: 3px solid #ffcc00;
+  outline-offset: 2px;
+}
